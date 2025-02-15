@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  color: #2062a3;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/Images/hawaii.jpg');
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-color:  wheat;
+  height: 50%;
+  padding: 3rem;
+}
+.email {
+  height: 15.3px;
+  width: 300px;
+}
+.destination {
+  height: 15.3px;
+  width: 300px;
+  
+}
+
+
+input[type=text], input[type=password] {
+  padding: 10px;
+  border-color: blue 1px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+div {
+  margin: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+}
+
+button {
+  font-size: 18px;
+  padding: 7px;
+  border: steelblue solid 1px;
+  border-radius: 5px;
+  background-color: lightblue;
+  font-weight: bold;
+  color: white;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: steelblue;
+}
+
+button:active {
+  background-color: blue;
+}/*# sourceMappingURL=styles.css.map */

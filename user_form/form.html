@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="./css/styles.css" rel="stylesheet" />
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <!-- Add Sign Up Form Here -->
+   <form id="itemForm">
+
+    <div class="inputField">
+    <label for="name">Your Destination:</label>
+    <select name="name" id="name" class="destination">
+      <option value="Hawaii"> Hawaii</option>
+      <option value="Greece"> Greece </option>
+      <option value="Iceland"> Iceland</option>
+    </select>
+    </div>
+
+    <div class="inputField">
+    <label for="email">Email: </label>
+    <input type="email" placeholder="Email" name="email" class="email">
+   </div>
+
+    <div class="inputField">
+    <label for="password">Password: </label>
+    <input type="password" placeholder="password" name="password">
+    </div>
+
+    <div class="inputField">
+    <label for="confirmPassword">Confirm Password: </label>
+    <input type="password" placeholder="confirm password" name="confirmPassword">
+    </div>
+
+    <div class="inputField">
+    <input type="checkbox" name="terms">
+    <label class="terms-label" for="terms">I agree to receive email updates</label>
+    </div>
+    <button type="submit"> Submit Form</button>
+  
+
+
+   </form>
+</body>
+</html>

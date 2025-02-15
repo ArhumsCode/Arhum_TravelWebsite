@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site - Home</title>
+
+    <!-- The common components styled here are the nav and the footer -->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- These will be components unique to the homepage -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h2 class="nav__logo"> Travel Site </h2>
+
+        <ul class="nav__list">
+            <a class="nav__link " href="index.html"><li class="nav__item border_bottom">Home</li></a>
+            <a class="nav__link" href="./pages/hawaii.html"><li class="nav__item">Hawaii   </li></a>
+            <a class="nav__link" href="./pages/iceland.html"><li class="nav__item">Iceland</li></a>
+            <a class="nav__link" href="./pages/greece.html"><li class="nav__item">Greece</li></a>
+        </ul>
+    </nav>
+
+
+
+    <section class="hero">
+        <div class="hero__left">
+            <h2 class="hero__slogan"> Travelling Comes With Endless Discoveries</h2>
+            <p class="hero__description">Don't let your dreams be just dreams. Experience the world by booking a
+                vacation with us now.</p>
+                <a class="button-wrapper" href="./user_form/form.html"> <button class="hero__button"> Get Started</button></a> 
+        </div>
+
+        <div class="hero__right">
+            <img class='hero__image' src="./assets/Images/hero.png" alt="hero-image">
+        </div>
+    </section>
+
+    <section class="recomendations">
+        <h1 class="recomendations__title">Recomendations</h1>
+        <div class="recomendations__container" style="display: flex; justify-content: center;" >
+
+            <a href="./pages/hawaii.html"><div class="recomendations__card--hawaii">
+
+                <h2 class="recomendations__card_label">Hawaii</h2>
+            </div></a>
+
+            <a href="./pages/iceland.html"><div class="recomendations__card--iceland">
+                <h2 class="recomendations__card_label">Iceland</h2>
+
+            </div></a>
+
+            <a href="./pages/greece.html"><div class="recomendations__card--greece">
+
+                <h2 class="recomendations__card_label">Greece</h2>
+            </div></a>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="footer__contact">
+            <h2 class="footer__title">Contact</h2>
+
+            <p class="footer__label">EMAIL</p>
+            <p class="footer__sublabel">info@travelsite.com</p>
+        </div>
+        <div class="footer__hours">
+
+            <div class="footer__hours_top">
+            <h2 class="footer__title">Hours</h2>
+            </div>
+
+            <div class="footer__hours_bottom">
+
+            <div class="footer__timing">
+            <p class="footer__label">MONDAY-FRIDAY</p>
+            <p class="footer__sublabel">9:00 AM - 5:00 PM</p>
+            </div>
+
+           <div class="footer__timing">
+                <p class="footer__label">SATURDAY</p>
+                <p class="footer__sublabel">10:00 AM - 4:00 PM</p>
+             </div>
+
+             <div class="footer__timing">
+            <p class="footer__label">SUNDAY</p>
+            <p class="footer__sublabel"> Closed</p>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="footer__socials">
+            <h2 class="footer__title">Social</h2>
+             <div class="footer__socials_bottom">
+                    <img class='footer__logo' src="../assets/Icons/icon-instagram.png" alt="Instagram">
+                    <img class="footer__logo" src="../assets/Icons/icon-facebook.png" alt="Facebook">
+                    <img class="footer__logo" src="../assets/Icons/icon-twitter.png" alt="Twitter">
+             </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

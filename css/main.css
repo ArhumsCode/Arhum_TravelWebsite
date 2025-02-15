@@ -1,0 +1,149 @@
+.hero {
+  height: 30rem;
+  background-color: #FEFAF5;
+  display: flex;
+  align-items: center;
+}
+.hero__right {
+  display: flex;
+  justify-content: center;
+}
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+.hero__slogan {
+  color: #335576;
+}
+.hero__button {
+  background-color: #DB7A4E;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  width: 10rem;
+}
+.hero__image {
+  width: 40%;
+}
+
+.recomendations {
+  height: 40rem;
+  padding: 2rem;
+}
+.recomendations__title {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #335576;
+}
+.recomendations__container {
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.recomendations__card {
+  display: inline-block;
+}
+.recomendations__card_label {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  color: white;
+  font-size: 1.5rem;
+}
+.recomendations__card--greece {
+  transition: border 0.2s ease-in;
+  height: 500px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url("../assets/Images/greece.jpg");
+}
+.recomendations__card--greece:hover {
+  border: 5px solid rgb(158, 158, 216);
+}
+.recomendations__card--iceland {
+  position: relative;
+  transition: border 0.2s ease-in;
+  height: 500px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Images/iceland.jpg");
+}
+.recomendations__card--iceland:hover {
+  border: 5px solid rgb(158, 158, 216);
+}
+.recomendations__card--hawaii {
+  position: relative;
+  transition: border 0.2s ease-in;
+  height: 500px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Images/hawaii.jpg");
+}
+.recomendations__card--hawaii:hover {
+  border: 5px solid rgb(158, 158, 216);
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__hours {
+  display: flex;
+  flex-direction: column;
+}
+.footer__hours_bottom {
+  display: flex;
+}
+.footer__timing {
+  margin-right: 4rem;
+}
+.footer__logo {
+  height: 2.5rem;
+  margin-right: 3rem;
+}
+
+@media (max-width: 1000px) {
+  .recomendations {
+    height: 30rem;
+  }
+  .recomendations__card--greece {
+    height: 30vh;
+    width: 30vw;
+  }
+  .recomendations__card--hawaii {
+    height: 30vh;
+    width: 30vw;
+  }
+  .recomendations__card--iceland {
+    height: 30vh;
+    width: 30vw;
+  }
+  .recomendations__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=main.css.map */

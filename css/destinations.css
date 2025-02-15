@@ -1,0 +1,104 @@
+.activities {
+  width: 100%;
+  height: 60rem;
+  padding: 0;
+  margin: 0;
+}
+.activities__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20%;
+}
+.activities__title {
+  color: white;
+  font-size: 5rem;
+  margin: 0;
+  margin-left: 5rem;
+}
+.activities__card_list {
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.activities__card {
+  height: 39rem;
+  width: 30%;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+.activities__card_lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.activities__day {
+  display: flex;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 4px;
+  font-size: 2.5rem;
+  border-bottom: 5px solid black;
+  width: 100%;
+}
+.activities__description {
+  font-size: 2rem;
+  font-weight: 100;
+  height: 5rem;
+  width: 80%;
+  background-color: #FEFAF5;
+  margin: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.greece {
+  background-image: url("../assets/Images/greece.jpg");
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .activities__card {
+    height: 30vwvh;
+    width: 30vw;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+  .activities__card_lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.6rem;
+  }
+  .activities__day {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=destinations.css.map */
